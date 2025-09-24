@@ -9,8 +9,8 @@ namespace FolderDiff.Enums
 
     public enum ProcessingMode
     {
-        None,
         BsDiff,
-        ChunkedBsDiffExperimental
+        ChunkedBsDiffExperimental,
+        None 
     }
 }
