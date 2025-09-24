@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BsDiff" Version="1.1.0" />
+    <PackageReference Include="DeltaQ.SuffixSorting.Abstractions" Version="2.1.0" />
+    <PackageReference Include="DeltaQ.SuffixSorting.LibDivSufSort" Version="2.1.0" />
+    <PackageReference Include="DeltaQ.SuffixSorting.SAIS" Version="2.1.0" />
+  </ItemGroup>
+
+</Project>
