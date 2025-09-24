@@ -15,7 +15,7 @@ namespace FolderDiff.DiffLibs
         public static void GenerateDiff(byte[] oldData, byte[] newData, Stream output)
         {
             // Build suffix array using DeltaQ
-            ISuffixSort suffixSort = new SAIS(); // or new LibDivSufSort()
+            ISuffixSort suffixSort = new SAIS();
             using var suffixArrayHandle = suffixSort.Sort(oldData);
             ReadOnlySpan<int> suffixArray = suffixArrayHandle.Memory.Span;
 
